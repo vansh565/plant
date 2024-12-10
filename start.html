@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLANTEN</title>
+    <link rel="stylesheet" href="start.css">
+    
+   
+</head>
+<body>
+    <div class="main-container">
+        <h1>Welcome User</h1>
+        <h2>IF YOU WANT TO BUY ANY NURSERY PLANT FOR YOUR HOME </h2>
+        <button class="login-btn" id="loginBtn"> <a href="index.html"></a></li>CLICK  HERE</button></a>
+        
+    </div>
+
+   
+    <script>
+        document.getElementById('loginBtn').addEventListener('click', function () {
+            // Add fade-out animation
+            document.body.classList.add('fade-out');
+
+            // Redirect to the login page after the animation
+            setTimeout(() => {
+                window.location.href = 'index.html';
+            }, 1000); // Wait 1 second for fade-out animation
+        });
+    </script>
+</body>
+</html>
